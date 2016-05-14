@@ -169,8 +169,8 @@ public class Data {
         return "adolfo";
     }
     
-    public void adolfo(){
-        
+    public int adolfo(){
+        return 10;
     }
     
     public void pato(){
