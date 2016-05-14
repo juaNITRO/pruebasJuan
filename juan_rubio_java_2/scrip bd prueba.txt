@@ -1,0 +1,35 @@
+create database votaciones;
+
+use votaciones;
+
+create table votantes(
+    id int not null auto_increment,
+    rut varchar(15) not null,
+    primary key (id)
+);
+
+create table votosCandidatos(
+    id int not null auto_increment,
+    nombre varchar(20) not null,
+    cantVotos int not null,
+    primary key (id)
+);
+
+create table votosNulos(
+    id int not null auto_increment,
+    comentario varchar(255) not null,
+    cantVotosNulos int not null,
+    primary key (id)
+);
+
+create table votosEnBlanco(
+    id int not null auto_increment,
+    cantVotosBlancos int not null,
+    primary key (id)
+);
+
+create table cerrarVotacion(
+    id int not null auto_increment,
+    estaCerrada varchar(5) not null,
+    primary key (id)
+);
