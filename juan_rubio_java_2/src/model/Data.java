@@ -170,6 +170,10 @@ public class Data {
     }
     
     public void adolfo(){
+        
+    }
+    
+    public void pato(){
     
     }
 }
