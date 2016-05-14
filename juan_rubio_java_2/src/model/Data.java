@@ -156,6 +156,11 @@ public class Data {
             comentario = rs.getString("comentario");
             comentarios.add(comentario);
         }
-    return comentarios;
+        return comentarios;
+    }
+    
+    public int getNumero(){
+        int numero = 2;
+        return numero;
     }
 }
