@@ -6,7 +6,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
-import javax.swing.UIManager;
 import model.Admin;
 import model.Candidatos;
 import model.Data;
@@ -442,7 +441,7 @@ public class App extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCerrarActionPerformed
 
     private void txtAdminKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtAdminKeyReleased
-                String rut = txtAdmin.getText();
+        String rut = txtAdmin.getText();
         if (rut.equals(a.getRut())) {
             btnCerrar.setEnabled(true);
         }else{
@@ -452,11 +451,6 @@ public class App extends javax.swing.JFrame {
 
     public static void main(String args[]) {
 
-        try {
-            UIManager.setLookAndFeel("com.jtattoo.plaf.noire.NoireLookAndFeel");
-        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(App.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
         java.awt.EventQueue.invokeLater(() -> {
             new App().setVisible(true);
         });
