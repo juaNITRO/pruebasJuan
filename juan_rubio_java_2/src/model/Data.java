@@ -170,7 +170,7 @@ public class Data {
     }
     
     public String adolfo(){
-        return "caca subida";
+        return "Joel por la chucha";
     }
     
     public void pato(){
