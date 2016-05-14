@@ -170,7 +170,7 @@ public class Data {
     }
     
     public int adolfo(){
-        return 2;
+        return 15;
     }
     
     public void pato(){
