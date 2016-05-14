@@ -170,7 +170,7 @@ public class Data {
     }
     
     public String adolfo(){
-        return "primera subida";
+        return "pichi subida";
     }
     
     public void pato(){
